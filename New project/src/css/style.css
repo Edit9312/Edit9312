@@ -1,0 +1,227 @@
+body{
+color : #fff;
+font-family: Arial,sans-serif;
+    background:url(../img/good.png)no-repeat 90% 4080px,url(../img/site.png)no-repeat 66% 4080px,url(../img/clock.png)no-repeat 38% 4080px,url(../img/yoda.png)no-repeat 15% 4080px,url(../img/lock.png)no-repeat 50% 2450px,url(../img/kartinka.png)no-repeat 1585px 570px/300px,url(../img/love.png)no-repeat 12% 1700px,url(../img/polsunok.png)no-repeat 36.5% 1700px,url(../img/users.png)no-repeat 63% 1700px,url(../img/double.png)no-repeat 92% 1700px,url(../img/plashka.png)no-repeat 0px -50px/100%  ,url(../img/me.png)no-repeat 75% 100%/auto ,url(../img/fon.png)repeat ;
+}
+nav {
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    background: -webkit-linear-gradient(180deg, rgb(29, 35, 67), rgb(29, 35, 67)); 
+    border-radius: 40px;
+}
+.logo{
+    font-size:28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+.menu{
+    float: left;
+    padding-left:432px;
+}
+.menu li{
+    float:left;
+    line-height:60px;
+    margin-right:40px;
+    text-transform: uppercase;
+    list-style:none; 
+}
+.main{
+    width: 90%;
+    height: calc(100% - 120px);
+    position: absolute;
+}
+.title__container{
+    margin: 400px;
+    color:#1d2343;
+    
+}
+.title__container h1{
+font-size: 60px;
+    font-weight: bold;
+}
+.title__container h3{
+font-size: 20px;
+   margin-top: 35px;
+    margin-left: 180px;
+    font-size: 24px;
+    color: #576baa;
+}
+.title__container input{
+color: #fff;
+    height: 40px;
+    margin-top: 36px;
+    margin-left: 156px;
+    border: 2px solid #1d2343;
+    border-radius: 20px;
+        background:#576baa;    
+}
+.plashka{
+    margin: 380px 1% 50px 86%;
+    position: absolute;
+    font-size: 30;
+    font-weight: bold;
+}
+.about_me{
+    color: #1d2343;
+     text-align: center;
+    background: url(../img/laptop.png)no-repeat center;
+    background-position: top;
+}
+.about_me h2{
+     margin-top: 1000px;
+    font-weight: bold;
+    font-size:28px;
+}
+.about_me span{
+    display: block;
+    font-size: 20px;
+   margin-top: 250px; 
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.about_me input{
+    color: #fff;
+    height: 40px;
+    margin-top: 70px;
+    border: 2px solid #1d2343;
+    border-radius: 20px;
+        background:#576baa;
+}
+.l_can {
+}
+.l_can h2{
+    text-align: center;
+    font-size: 30px;
+    color: #1d2343;
+    margin-top: 70px;
+    font-weight: bold;
+}
+.l_can h3{
+    float: left;
+   line-height:150px;
+    margin-left: 235px;
+    color: #1d2343;
+    font-size: 30px;
+    font-weight: bold;
+}
+.l_can span{
+    float: left;
+    display: block;
+    line-height:550px;
+     margin-left: 180px;
+    color: #1d2343;
+    font-size: 23px;
+}
+.job{
+    clear: both;
+    text-align: center;
+}
+.job h2{
+  color: #1d2343;  
+    font-size: 30px;
+    font-weight: bold;
+}
+.job span{
+    line-height: 200px;
+    color: #1d2343;  
+    font-size: 20px;
+    font-style: italic;
+}
+.cash h2{
+    text-align: center;
+    color: #1d2343;  
+    font-size: 30px;
+    font-weight: bold;
+   margin-top: 550px;
+}
+.cash h3{
+    line-height: 100px;
+    margin-left: 500px;
+    color: #000000;  
+    font-size: 25px;
+    font-weight: bold;
+}
+.selector_1{
+    margin-left: 27%;
+  max-width: 30ch;
+  border: 1px solid;
+  border-radius: 0.25em;
+  padding: 0.25em 0.em;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  background-color: #fff;
+}
+.selector_2{
+    margin-left: 27%;
+  max-width: 30ch;
+  border: 1px solid;
+  border-radius: 0.25em;
+  padding: 0.25em 0.em;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  background-color: #fff;
+}
+.selector_3{
+    margin-left: 27%;
+  max-width: 30ch;
+  border: 1px solid;
+  border-radius: 0.25em;
+  padding: 0.25em 0.em;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  background-color: #fff;
+}
+.tablic{
+    margin-top: 100px;
+    margin-left: 500px;
+     color: #1d2343;
+    font-size: 20px;
+    font-weight: bold;
+}
+.static h2{
+    margin-top: 200px;
+    text-align: center;
+    color: #1d2343;  
+    font-size: 30px;
+    font-weight: bold;
+}
+.static h3{
+    margin-right: 35px;
+    margin-top: 200px;
+    float: left;
+    color: #1d2343;
+    margin-left: 340px;
+    font-size: 22px;
+}
+.static span{
+    margin-top: 230px;
+    margin-right: 10px;
+    float: left;
+    color: #1d2343;
+    margin-left: 270px;
+    font-size: 16px;
+}
+.otziv {
+    clear: both;
+    text-align: center;
+    color: #1d2343;  
+    font-size: 30px;
+    font-weight: bold;
+}
+.contact {
+    color: #1d2343;  
+    font-size: 30px;
+    font-weight: bold;
+}
+.send{
+    text-align: center;
+}
+.pusk{
+    margin-left: 40%;
+    border: 1px solid;
+  border-radius: 0.25em;
+     background-color: #1d2343;
+    max-width: 30ch;
+}
