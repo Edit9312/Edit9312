@@ -1,14 +1,47 @@
 body{
 color : #fff;
 font-family: Arial,sans-serif;
-    background:url(../img/good.png)no-repeat 90% 4080px,url(../img/site.png)no-repeat 66% 4080px,url(../img/clock.png)no-repeat 38% 4080px,url(../img/yoda.png)no-repeat 15% 4080px,url(../img/lock.png)no-repeat 50% 2450px,url(../img/kartinka.png)no-repeat 1585px 570px/300px,url(../img/love.png)no-repeat 12% 1700px,url(../img/polsunok.png)no-repeat 36.5% 1700px,url(../img/users.png)no-repeat 63% 1700px,url(../img/double.png)no-repeat 92% 1700px,url(../img/plashka.png)no-repeat 0px -50px/100%  ,url(../img/me.png)no-repeat 75% 100%/auto ,url(../img/fon.png)repeat ;
+    background:url(../img/robot.png)no-repeat 50% 4700px,url(../img/good.png)no-repeat 90% 4080px,url(../img/site.png)no-repeat 66% 4080px,url(../img/clock.png)no-repeat 38% 4080px,url(../img/yoda.png)no-repeat 15% 4080px,url(../img/lock.png)no-repeat 50% 2450px,url(../img/kartinka.png)no-repeat 1585px 570px/300px,url(../img/love.png)no-repeat 12% 1700px,url(../img/polsunok.png)no-repeat 36.5% 1700px,url(../img/users.png)no-repeat 63% 1700px,url(../img/double.png)no-repeat 92% 1700px,url(../img/plashka.png)no-repeat 0px -50px/100%  ,url(../img/me.png)no-repeat 75% 100%/auto ,url(../img/fon.png)repeat ;
 }
 nav {
     margin-top: 20px;
     width: 100%;
     height: 60px;
-    background: -webkit-linear-gradient(180deg, rgb(29, 35, 67), rgb(29, 35, 67)); 
     border-radius: 40px;
+    -webkit-animation: 2s;
+    -o-animation: 2s;
+    animation: 2s;
+}
+   nav {
+    background: linear-gradient(56deg, #0934a3, #b61b1b, #07329f, #b311e2);
+    background-size: 200%;
+
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    -o-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    
+    0%{background-position:0% 74%}
+    50%{background-position:100% 27%}
+    100%{background-position:0% 74%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 74%}
+    50%{background-position:100% 27%}
+    100%{background-position:0% 74%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 74%}
+    50%{background-position:100% 27%}
+    100%{background-position:0% 74%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 74%}
+    50%{background-position:100% 27%}
+    100%{background-position:0% 74%}
 }
 .logo{
     font-size:28px;
@@ -27,6 +60,10 @@ nav {
     text-transform: uppercase;
     list-style:none; 
 }
+.menu li:hover{
+color: black;
+    transform: scale(1.2);
+    }
 .main{
     width: 90%;
     height: calc(100% - 120px);
@@ -55,7 +92,21 @@ color: #fff;
     margin-left: 156px;
     border: 2px solid #1d2343;
     border-radius: 20px;
-        background:#576baa;    
+        background:#576baa; 
+}
+.title__container input:hover{
+    transform: scale(1.2);
+    color:#1d2343 ;
+    background: linear-gradient(56deg, #0934a3, #07329f, #b311e2, #32CD32, #FFD700,#000000);
+    background-size: 200%;
+    -webkit-animation: temin 5s ease infinite;
+    -moz-animation: temin 5s ease infinite;
+    -o-animation: temin 5s ease infinite;
+    animation: temin 5s ease infinite;
+}
+@keyframes temin{
+     0%{background-position:0% 50%}
+  100%{background-position:100% 50%}
 }
 .plashka{
     margin: 380px 1% 50px 86%;
@@ -89,7 +140,15 @@ color: #fff;
     border-radius: 20px;
         background:#576baa;
 }
-.l_can {
+.about_me input:hover{
+    transform: scale(1.2);
+    color:#1d2343 ;
+    background: linear-gradient(56deg, #0934a3, #07329f, #b311e2, #32CD32, #FFD700,#000000);
+    background-size: 200%;
+    -webkit-animation: temin 5s ease infinite;
+    -moz-animation: temin 5s ease infinite;
+    -o-animation: temin 5s ease infinite;
+    animation: temin 5s ease infinite;
 }
 .l_can h2{
     text-align: center;
@@ -107,14 +166,29 @@ color: #fff;
     font-weight: bold;
 }
 .l_can span{
+    font-weight: bold;
     float: left;
-    display: block;
-    line-height:550px;
-     margin-left: 180px;
+    display:block;
+    margin-top: 250px;
+     margin-left: 280px;
     color: #1d2343;
-    font-size: 23px;
+    font-size: 16px;
+  animation: time 20s infinite;
+  
+  background: linear-gradient(90deg, rgba(150,48,30,1) 0%,rgba(199,201,88,1) 10%,rgba(28,147,46,1) 20%,rgba(74,165,168,1) 30%,rgba(89,90,165,1) 40%,rgba(84,16,67,1) 50%,rgba(28,58,63,1) 60%,rgba(82,175,183,1) 70%,rgba(78,170,76,1) 80%,rgba(150,48,30,1) 90%,rgba(199,201,88,1) 100%);
+  background-size: 500% 100%;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: translate(-50%, -50%);
+}
+@keyframes time {
+  0%{background-position:0% 50%}
+  100%{background-position:100% 50%}
 }
 .job{
+    display: block;
+     margin-top: 38%;
     clear: both;
     text-align: center;
 }
@@ -138,35 +212,35 @@ color: #fff;
 }
 .cash h3{
     line-height: 100px;
-    margin-left: 500px;
+    margin-left: 600px;
     color: #000000;  
     font-size: 25px;
     font-weight: bold;
 }
-.selector_1{
-    margin-left: 27%;
-  max-width: 30ch;
-  border: 1px solid;
+#select_1{
+    width: 600px;
+    margin-left: 31%;
+  border: 6px inset #1d2343;
   border-radius: 0.25em;
   padding: 0.25em 0.em;
   font-size: 2.25rem;
   line-height: 1.1;
   background-color: #fff;
 }
-.selector_2{
-    margin-left: 27%;
-  max-width: 30ch;
-  border: 1px solid;
+#select_2{
+    margin-left: 31%;
+ width: 600px;
+  border: 6px inset #1d2343;
   border-radius: 0.25em;
   padding: 0.25em 0.em;
   font-size: 2.25rem;
   line-height: 1.1;
   background-color: #fff;
 }
-.selector_3{
-    margin-left: 27%;
-  max-width: 30ch;
-  border: 1px solid;
+#select_3{
+    margin-left: 31%;
+ width: 600px;
+  border: 6px inset #1d2343;
   border-radius: 0.25em;
   padding: 0.25em 0.em;
   font-size: 2.25rem;
@@ -175,13 +249,14 @@ color: #fff;
 }
 .tablic{
     margin-top: 100px;
-    margin-left: 500px;
+    margin-left: 600px;
      color: #1d2343;
     font-size: 20px;
     font-weight: bold;
 }
 .static h2{
-    margin-top: 200px;
+    display: block ;
+    margin-top: 5%;
     text-align: center;
     color: #1d2343;  
     font-size: 30px;
@@ -196,7 +271,7 @@ color: #fff;
     font-size: 22px;
 }
 .static span{
-    margin-top: 230px;
+    margin-top: 250px;
     margin-right: 10px;
     float: left;
     color: #1d2343;
@@ -204,24 +279,42 @@ color: #fff;
     font-size: 16px;
 }
 .otziv {
-    clear: both;
+    clear: left;
+    margin-top: 600px;
     text-align: center;
     color: #1d2343;  
     font-size: 30px;
-    font-weight: bold;
+}
+.otziv h5{
+    margin-top: 400px;
 }
 .contact {
-    color: #1d2343;  
+    color:#fff;
+    background: url(../img/peace.png)no-repeat;
+    background-size:cover;
+    border-radius: 200px;
+    margin-top: 100px;
+    text-align: center; 
     font-size: 30px;
-    font-weight: bold;
+     font-weight: bold;
+}
+.contact h3{
+     color:#fff;
+    margin-top: 200px;
+    float: left;
+    margin-left: 250px;
+}
+.my_contact{
+  position:absolute;
+    margin-top: 80px;
+    margin-left: 45%;
 }
 .send{
+     color:#fff;
+    font-weight: bold;
+    clear: both;
     text-align: center;
 }
-.pusk{
-    margin-left: 40%;
-    border: 1px solid;
-  border-radius: 0.25em;
-     background-color: #1d2343;
-    max-width: 30ch;
+.pusk input{
+  border-radius: 200px;  
 }
